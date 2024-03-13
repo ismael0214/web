@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diccionario Digital</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ecf0f1; /* Fondo gris claro minimalista */
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            overflow-x: hidden; /* Oculta la barra de desplazamiento horizontal */
+        }
+
+        header {
+            background-color: #3498db; /* Azul */
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            margin-bottom: 10px; /* Reducido el margen inferior */
+        }
+
+        nav {
+            background-color: #2c3e50; /* Gris oscuro */
+            color: #fff;
+            display: flex;
+            overflow-x: auto; /* Permite desplazamiento horizontal */
+            scroll-snap-type: x mandatory; /* Permite el desplazamiento suave a cada botón */
+            padding: 10px;
+            flex: 1;
+        }
+
+        nav a {
+            flex: 1;
+            padding: 15px;
+            text-align: center;
+            text-decoration: none;
+            color: #fff;
+            border-radius: 5px;
+            transition: background-color 0.5s;
+            margin: 5px;
+            scroll-snap-align: start; /* Alinea cada botón al inicio del área visible */
+            box-sizing: border-box; /* Asegura que el padding no afecte el tamaño total */
+        }
+
+        /* Colores específicos para cada botón */
+        .btn1 { background-color: #e74c3c; } /* Rojo */
+        .btn2 { background-color: #27ae60; } /* Verde */
+        .btn3 { background-color: #f39c12; } /* Amarillo */
+        .btn4 { background-color: #9b59b6; } /* Morado */
+        .btn5 { background-color: #34495e; } /* Azul oscuro */
+        .btn6 { background-color: #e67e22; } /* Naranja */
+        .btn7 { background-color: #3498db; } /* Azul claro */
+        .btn8 { background-color: #2ecc71; } /* Verde claro */
+        .btn9 { background-color: #ecf0f1; } /* Gris claro */
+        .btn10 { background-color: #3498db; } /* Otro Azul claro */
+        .btn11 { background-color: #27ae60; } /* Otro Verde */
+        .btn12 { background-color: #f39c12; } /* Amarillo claro */
+        .btn13 { background-color: #9b59b6; } /* Morado claro */
+        .btn14 { background-color: #34495e; } /* Azul oscuro claro */
+
+        nav a:hover {
+            opacity: 0.8; /* Añade un efecto de transparencia al pasar el mouse */
+        }
+
+        section {
+            flex: 2; /* Ajusta el tamaño del contenido según sea necesario */
+            padding: 20px;
+            margin: 0 auto;
+            max-width: 800px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Estilos de ejemplo para el contenido */
+        h2 {
+            color: #3498db;
+            margin-bottom: 15px;
+        }
+
+        p {
+            color: #555;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Diccionario Digital</h1>
+    </header>
+
+    <nav>
+        <a class="btn1" href="formacion.html">Formación y Orientación Laboral</a>
+        <a class="btn2" href="aplicaciones.html">Aplicaciones Ofimáticas Locales y en Línea</a>
+        <a class="btn3" href="soporte.html">Soporte Técnico</a>
+        <a class="btn4" href="historia.html">Historia</a>
+        <a class="btn5" href="emprendimiento.html">Emprendimiento y Gestión</a>
+        <a class="btn6" href="programacion.html">Programación y Base de Datos</a>
+        <a class="btn7" href="lengua.html">Lengua y Literatura</a>
+        <a class="btn8" href="fisica.html">Física</a>
+        <a class="btn9" href="educacion.html">Educación Física</a>
+        <a class="btn10" href="acompanamiento.html">Acompañamiento</a>
+        <a class="btn11" href="matematicas.html">Matemáticas</a>
+        <a class="btn12" href="quimica.html">Química</a>
+        <a class="btn13" href="diseno.html">Diseño Web</a>
+        <a class="btn14" href="sistemas.html">Sistemas Operativos</a>
+    </nav>
+
+    <section>
+        <h2>Historia del Diccionario Digital</h2>
+        <p>El Diccionario Digital fue concebido en el año 1981 con el objetivo de proporcionar una herramienta completa y accesible para el aprendizaje y consulta de diversos temas. Desde entonces, ha evolucionado y crecido para abarcar una amplia gama de materias y convertirse en una fuente invaluable de conocimiento.</p>
+        <h2>Importancia del Diccionario Digital</h2>
+        <p>El Diccionario Digital juega un papel crucial en la educación moderna al ofrecer información actualizada y verificada. Su accesibilidad en línea facilita el aprendizaje en cualquier momento y lugar, convirtiéndolo en una herramienta esencial para estudiantes, profesionales y entusiastas del conocimiento.</p>
+    </section>
+
+</body>
+</html>
